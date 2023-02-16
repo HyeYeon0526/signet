@@ -1,14 +1,17 @@
 import Login from '@/login/Login'
 import Weather from '@/weather/Weather'
 import TranscriptionView from '@/transcription/TranscriptionView'
+import Backdrop from '@/login/Backdrop';
+import LogModal from '@/login/LogModal';
 
 function App() {
 
   return (
     <div>
-      <Login />
       {/* <Weather /> */}
       <TranscriptionView />
+      <LogModal />
+      <Backdrop />
     </div>
   )
 }
