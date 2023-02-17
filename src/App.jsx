@@ -1,17 +1,15 @@
-import Login from '@/login/Login'
-import Weather from '@/weather/Weather'
-import TranscriptionView from '@/transcription/TranscriptionView'
-import Backdrop from '@/login/Backdrop';
-import LogModal from '@/login/LogModal';
+import TranscriptionView from '@/transcription/TranscriptionView';
+import Title from '@/Title';
+import LoginBtn from '@/login/LoginBtn';
 
 function App() {
 
   return (
     <div>
+      <Title />
+      <LoginBtn />
       {/* <Weather /> */}
       <TranscriptionView />
-      <LogModal />
-      <Backdrop />
     </div>
   )
 }
