@@ -6,6 +6,6 @@
         "src"
     ],
     "paths": {
-      "@/layout/*": ["compoents/layout/*"]
+      "@/layout/*": ["components/layout/*"]
     }
 }
