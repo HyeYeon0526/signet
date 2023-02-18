@@ -1,6 +1,6 @@
-import TranscriptionView from '@/transcription/TranscriptionView';
 import Title from '@/Title';
-import LoginBtn from '@/login/LoginBtn';
+import LoginBtn from '@components/login/LoginBtn';
+import TranscriptionView from '@components/transcription/TranscriptionView';
 
 function App() {
 

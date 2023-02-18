@@ -6,7 +6,7 @@ function Login() {
             <input type="text" placeholder="ID" />
             <input type="password" placeholder="PW"/>
             <button action='submit'> 로그인 </button>
-            <Link to={'@/Membership'}>
+            <Link to={`@/Membership`}>
                 <button> 회원가입 </button>
             </Link>
 
