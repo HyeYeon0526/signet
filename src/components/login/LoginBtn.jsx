@@ -1,10 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, Router } from "react-router-dom";
 
 function LoginBtn(){
     return (
-        <Link to={`@/Login`}>
-            <button> Login </button>
-        </Link>
+        <Router>
+            <Link to={`@/Login`}>
+                <button> Login </button>
+            </Link>            
+        </Router>
+
     )
 }
 
