@@ -1,13 +1,9 @@
-import { Link, Router } from "react-router-dom";
+import { Router } from "react-router-dom";
+import classes from '@/components/login/Login.module.css';
 
 function LoginBtn(){
     return (
-        <Router>
-            <Link to={`@/Login`}>
-                <button> Login </button>
-            </Link>            
-        </Router>
-
+        <button className={classes.btn}> Login </button>
     )
 }
 
