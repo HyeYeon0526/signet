@@ -1,6 +1,11 @@
+import classes from '@/style.module.css'
+
 function Title () {
     return (
-        <h1>S I G N E T</h1>
+        <div className={classes.title_box}>
+            <h1 className={classes.title}>S I G N E T</h1>            
+        </div>
+
     )
 }
 

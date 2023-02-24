@@ -1,0 +1,18 @@
+
+
+.title {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color : #D6B881;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.title_box{
+    position: sticky;
+    top : 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}

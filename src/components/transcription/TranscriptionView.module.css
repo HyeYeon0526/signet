@@ -1,8 +1,11 @@
-body {
-    background-color: white;
-    color : #404040;
-}
 .control{
-    color : black;
+    width: 100%;
+    height: 100%;
+    padding: 10% 10%;
 }
-
+.btn{
+    
+}
+.text_design{
+    text-align: center;
+}
