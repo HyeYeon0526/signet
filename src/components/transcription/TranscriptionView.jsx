@@ -19,8 +19,8 @@ function TranscriptionView() {
             <p className={classes.text_design}>
                 {transcription[getRandomIndex(transcription.length)]}
             </p>
-            <button> 저장 </button>
-            <button> ❤️ </button>
+            <button className={classes.btn}> ❤️ </button>
+            <button className={classes.btn}> 저장 </button>
         </div>
     )
     
