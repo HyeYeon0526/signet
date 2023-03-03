@@ -11,9 +11,6 @@ function Login() {
                     <button> 회원가입 </button>
                 </Link>  
             </Router>
-
-
-
         </form>
     )
 }
